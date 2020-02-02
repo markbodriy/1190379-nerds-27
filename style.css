@@ -1,39 +1,39 @@
 a.logo-academy {
-  background: url(img/logo-1.png); /* Путь к файлу с исходным рисунком  */
+  background: url(img/htmlacademy-comfort.png); /* Путь к файлу с исходным рисунком  */
   display: block; /*  Рисунок как блочный элемент */
   width: 199px; /* Ширина рисунка */
   height: 68px; /*  Высота рисунка */
 }
 a.logo-academy:hover {
-  background: url(img/logo-1-2.png); /* Путь к файлу с заменяемым рисунком  */
+  background: url(img/htmlacademy-steering.png); /* Путь к файлу с заменяемым рисунком  */
 }
 
 a.logo-Borodinski {
-  background: url(img/logo-2.png); /* Путь к файлу с исходным рисунком  */
+  background: url(img/barbershop-comfort.png); /* Путь к файлу с исходным рисунком  */
   display: block; /*  Рисунок как блочный элемент */
   width: 209px; /* Ширина рисунка */
   height: 90px; /*  Высота рисунка */
 }
 a.logo-Borodinski:hover {
-  background: url(img/logo-2-2.png); /* Путь к файлу с заменяемым рисунком  */
+  background: url(img/barbershop-steering.png); /* Путь к файлу с заменяемым рисунком  */
 }
 
 a.logo-Pink {
-  background: url(img/logo-3.png); /* Путь к файлу с исходным рисунком  */
+  background: url(img/pink-comfort.png); /* Путь к файлу с исходным рисунком  */
   display: block; /*  Рисунок как блочный элемент */
   width: 185px; /* Ширина рисунка */
   height: 52px; /*  Высота рисунка */
 }
 a.logo-Pink:hover {
-  background: url(img/logo-3-2.png); /* Путь к файлу с заменяемым рисунком  */
+  background: url(img/pink-steering.png); /* Путь к файлу с заменяемым рисунком  */
 }
 
 a.logo-Mishka {
-  background: url(img/logo-4.png); /* Путь к файлу с исходным рисунком  */
+  background: url(img/mishka-comfort.png); /* Путь к файлу с исходным рисунком  */
   display: block; /*  Рисунок как блочный элемент */
   width: 173px; /* Ширина рисунка */
   height: 84px; /*  Высота рисунка */
 }
 a.logo-Mishka:hover {
-  background: url(img/logo-4-2.png); /* Путь к файлу с заменяемым рисунком  */
+  background: url(img/mishka-steering.png); /* Путь к файлу с заменяемым рисунком  */
 }
