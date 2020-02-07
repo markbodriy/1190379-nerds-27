@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Магазин студии Нёрдс</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -19,8 +20,7 @@
       </nav>
       <ul>
         <li>
-          <button type="button">
-            <img src="img/cart-icon.svg" alt="Корзинка" style="vertical-align: middle">Корзина</button>
+          <button type="button">Корзина</button>
         </li>
       </ul>
     </header>
@@ -28,11 +28,55 @@
       <h1>Магазин готовых шаблонов</h1>
         <section class="filters">
           <!-- <Будет cкрытым -->
-          <h2>Фильтр товаров</h2>
-          <!--Здесь будет форма-->
+          <h2 class="visually-hidden">Фильтр товаров</h2>
+            <form method="get" action="https://echo.htmlacademy.ru">
+              <fieldset>
+                <legend>СЕТКА:</legend>
+                <ul>
+                  <li>
+                    <input type="radio" name="grid-group" value="adaptive" id="filter-adaptive" checked>
+                    <label for="filter-adaptive">Адаптивная</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="grid-group" value="fixed" id="filter-fixed">
+                    <label for="filter-fixed">Фиксированная</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="grid-group" value="rubber" id="filter-rubber">
+                    <label for="filter-rubber">Резиновая</label>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset>
+                <legend>ОСОБЕННОСТИ:</legend>
+                <ul>
+                  <li>
+                    <input type="checkbox" name="Slider" id="filter-Slider" checked>
+                    <label for="filter-Slider">Слайдер</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="advantages" id="filter-advantages">
+                    <label for="filter-advantages">Блок преимуществ</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="news" id="filter-news" checked>
+                    <label for="filter-news">Новости</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="gallery" id="filter-gallery">
+                    <label for="filter-gallery">Галерея</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="Basket" id="filter-Basket">
+                    <label for="filter-Basket">Корзина</label>
+                  </li>
+                </ul>
+              </fieldset>
+              <button type="submit">Показать</button>
+            </form>
         </section>
         <section class="catalog">
-          <h2>Каталог шаблонов</h2>
+          <h2 class="visually-hidden">Каталог шаблонов</h2>
           <ul>
             <li>
               <a href="">
@@ -94,7 +138,7 @@
         </form>
         <section>
           <!-- <Будет cкрытым -->
-          <h2>Контактная информация</h2>
+          <h2 class="visually-hidden">Контактная информация</h2>
           <p>NЁRDS DESIGN STUDIO</p>
           <p>191186, Санкт-Петербург,<br>
             ул. Б. Конюшенная, д. 19/8</p>
@@ -102,8 +146,7 @@
           <a href="#">Напишите нам</a>
         </section>
         <div>
-          <img src="img/map.png" width="1440" height="416" alt="Карта">
-          <img src="img/map-marker.png" width="231" height="190" alt="Указатель">
+          <img src="img/map-m.png" width="1200" height="416" alt="Карта">
         </div>
     </main>
     <footer>
