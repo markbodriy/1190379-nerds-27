@@ -1,39 +1,66 @@
-a.logo-academy {
-  background: url(img/htmlacademy-comfort.png); /* Путь к файлу с исходным рисунком  */
-  display: block; /*  Рисунок как блочный элемент */
-  width: 199px; /* Ширина рисунка */
-  height: 68px; /*  Высота рисунка */
-}
-a.logo-academy:hover {
-  background: url(img/htmlacademy-steering.png); /* Путь к файлу с заменяемым рисунком  */
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto.woff2") format("woff2");
+  src: url("/fonts/Roboto.woff") format("woff");;
+  font-style: normal;
+  font-weight: 400;
 }
 
-a.logo-Borodinski {
-  background: url(img/barbershop-comfort.png); /* Путь к файлу с исходным рисунком  */
-  display: block; /*  Рисунок как блочный элемент */
-  width: 209px; /* Ширина рисунка */
-  height: 90px; /*  Высота рисунка */
-}
-a.logo-Borodinski:hover {
-  background: url(img/barbershop-steering.png); /* Путь к файлу с заменяемым рисунком  */
+@font-face {
+  font-family: "Robotobold";
+  src: url("/fonts/Robotobold.woff2") format("woff2");
+  src: url("/fonts/Robotobold.woff") format("woff");;
+  font-style: normal;
+  font-weight: 700;
 }
 
-a.logo-Pink {
-  background: url(img/pink-comfort.png); /* Путь к файлу с исходным рисунком  */
-  display: block; /*  Рисунок как блочный элемент */
-  width: 185px; /* Ширина рисунка */
-  height: 52px; /*  Высота рисунка */
+@font-face {
+  font-family: "Robotomedium";
+  src: url("/fonts/Robotomedium.woff2") format("woff2");
+  src: url("/fonts/Robotomedium.woff") format("woff");;
+  font-style: normal;
+  font-weight: 500;
 }
-a.logo-Pink:hover {
-  background: url(img/pink-steering.png); /* Путь к файлу с заменяемым рисунком  */
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  min-width: 1200px;
+  color: #283136;
+  background-color: #ffffff;
 }
 
-a.logo-Mishka {
-  background: url(img/mishka-comfort.png); /* Путь к файлу с исходным рисунком  */
-  display: block; /*  Рисунок как блочный элемент */
-  width: 173px; /* Ширина рисунка */
-  height: 84px; /*  Высота рисунка */
+a {
+  text-decoration: none;
 }
-a.logo-Mishka:hover {
-  background: url(img/mishka-steering.png); /* Путь к файлу с заменяемым рисунком  */
+
+li {
+  list-style: none;
+}
+
+.form-write {
+  display: none
+}
+
+.order a,
+fieldset .group {
+  font-size: 18px;
+  color: #000000;
+}
+
+.order p {
+  font-size: 16px;
+  color: #666666;
+}
+
+.order .catalog-order {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.group  {
+  font-size: 16px;
+  color: red;
 }

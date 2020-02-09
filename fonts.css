@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("/fonts/Roboto.woff2") format("woff2");
+	src: url("/fonts/Roboto.woff") format("woff");;
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+  font-family: "Robotobold";
+  src: url("/fonts/Robotobold.woff2") format("woff2");
+  src: url("/fonts/Robotobold.woff") format("woff");;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Robotomedium";
+  src: url("/fonts/Robotomedium.woff2") format("woff2");
+  src: url("/fonts/Robotomedium.woff") format("woff");;
+  font-style: normal;
+  font-weight: normal;
+}

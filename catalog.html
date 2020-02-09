@@ -31,7 +31,7 @@
           <h2 class="visually-hidden">Фильтр товаров</h2>
             <form method="get" action="https://echo.htmlacademy.ru">
               <fieldset>
-                <legend>СЕТКА:</legend>
+                <legend class="group">СЕТКА:</legend>
                 <ul>
                   <li>
                     <input type="radio" name="grid-group" value="adaptive" id="filter-adaptive" checked>
@@ -48,7 +48,7 @@
                 </ul>
               </fieldset>
               <fieldset>
-                <legend>ОСОБЕННОСТИ:</legend>
+                <legend class="group">ОСОБЕННОСТИ:</legend>
                 <ul>
                   <li>
                     <input type="checkbox" name="Slider" id="filter-Slider" checked>
@@ -83,56 +83,98 @@
                 <img src="img/browser.svg" width="360" height="40" alt="Шапка браузера сайта Седона">
                 <img src="img/sedona.jpg" width="360" height="576" alt="Сайт Седона">
               </a>
+              <div class="order">
+                <a href="#">Sedona</a>
+                <P>Информационный сайт<br>
+                  для туристов</P>
+                <a class="catalog-order" href="#">9 900РУБ.</a>
+              </div>
             </li>
             <li>
               <a href="">
                 <img src="img/browser.svg" width="360" height="40" alt="Шапка браузера сайта Пинк">
                 <img src="img/pink.jpg" width="360" height="576" alt="Сайт Пинк">
               </a>
+              <div class="order">
+                <a href="#">Pink App</a>
+                <P>Продуктовый лендинг<br>
+                  приложения для iOS и Android</P>
+                <a class="catalog-order" href="#">9 900РУБ.</a>
+              </div>
             </li>
             <li>
               <a href="">
                 <img src="img/browser.svg" width="360" height="40" alt="Шапка браузера сайта Бородинский">
                 <img src="img/barbershop.jpg" width="360" height="576" alt="Сайт Бородинский">
               </a>
+              <div class="order">
+                <a href="#">Barbershop</a>
+                <P>Сайт салона красоты.<br>
+                  Для мужчин, да.</P>
+                <a class="catalog-order" href="#">9 900РУБ.</a>
+              </div>
             </li>
             <li>
               <a href="">
                 <img src="img/browser.svg" width="360" height="40" alt="Шапка браузера сайта Мишка">
                 <img src="img/mishka.jpg" width="360" height="576" alt="Сайт Мишка">
               </a>
+              <div class="order">
+                <a href="#">MISHKA</a>
+                <P>Интернет-магазин<br>
+                  вязаных игрушек</P>
+                <a class="catalog-order" href="#">9 900РУБ.</a>
+              </div>
             </li>
             <li>
               <a href="">
                 <img src="img/browser.svg" width="360" height="40" alt="Шапка браузера сайта Aplus">
                 <img src="img/aplus.jpg" width="360" height="576" alt="Сайт Aplus">
               </a>
+              <div class="order">
+                <a href="#">A Plus</a>
+                <P>Лендинг курсов повышения<br>
+                  квалификации</P>
+                <a class="catalog-order" href="#">9 900РУБ.</a>
+              </div>
             </li>
             <li>
               <a href="">
                 <img src="img/browser.svg" width="360" height="40" alt="Шапка браузера сайта Кваст">
                 <img src="img/shop-cvast.jpg" width="360" height="576" alt="Сайт Кваст">
               </a>
+              <div class="order">
+                <a href="#">КВАСТ</a>
+                <P>Промо-сайт производителя<br>
+                  крафтового кваса</P>
+                <a class="catalog-order" href="#">9 900РУБ.</a>
+              </div>
             </li>
           </ul>
+          <ul class="page number">
+            <li><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">Следующая</a></li>
+          </ul>
         </section>
-        <form class="napishite_nam" method="post"
+        <form class="form-write" method="post"
               action="https://echo.htmlacademy.ru">
           <H2>Напишите нам</H2>
           <label for="user-name">Ваше имя:</label><br>
           <input id="user-name" type="text"
-                 name="fio" placeholder="Имя Фамилия"><br>
+                 name="user-name" placeholder="Имя Фамилия"><br>
           <label for="user-mail">Ваш e-mail:</label><br>
           <input id="user-mail" type="text"
-                 name="email" placeholder="email@example.com">
+                 name="user-mail" placeholder="email@example.com">
           <p>
             <label for="textmail-field">Текст письма:</label><br>
             <textarea name="textmail" id="textmail-field" rows="10">
-            В свободной форме
-            </textarea>
+              В свободной форме
+              </textarea>
           </p>
           <button type="button">
-            <img src="img/close-cross.png" alt="крестик закрыть форму">
+            <img src="img/close-cross.png" alt="закрыть форму">
           </button>
           <button type="submit">Отправить</button>
         </form>
@@ -140,9 +182,9 @@
           <!-- <Будет cкрытым -->
           <h2 class="visually-hidden">Контактная информация</h2>
           <p>NЁRDS DESIGN STUDIO</p>
-          <p>191186, Санкт-Петербург,<br>
-            ул. Б. Конюшенная, д. 19/8</p>
-          <p>тел. +7 (812) 275-75-75</p>
+          <address>191186, Санкт-Петербург,<br>
+            ул. Б. Конюшенная, д. 19/8</address>
+          <a class="phone" href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
           <a href="#">Напишите нам</a>
         </section>
         <div>
